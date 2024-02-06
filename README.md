@@ -1,5 +1,6 @@
 # Widya Winata Liu Profile
 
+Before that please see my module 1 checkpoint 1 site here : https://module1checkpoint1.netlify.app/
 >This is my profile 
 ------------------------
 ## My Bio
