@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="Header">
+    <h1>Welcome to my Week 0 Checkpoint#1</h1>
+    <h2>This is my form to register for Blind Dating Application</h2>
+    <h3>Please kindly fill the form below:</h3>
+  </div>
+
+  <form>
+    <div class="Name">
+      <label for="firstName">First Name:</label>
+      <input id="firstName" type="text" required placeholder="Jane" />
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" type="text" required />
+    </div>
+
+    <div class="Email">
+      <label for="Email">Email:</label>
+      <input id="Email" type="email" required placeholder="Doe" />
+    </div>
+
+    <div class="dateofBirth">
+      <label for="dateOfBirth">Date of Birth:</label>
+      <input id="dateofBirth" type="date" required  />
+    </div>
+
+    <div class="Gender">
+      <label for="Gender">Gender:</label>
+      <input id="Gender" type="radio" value="male" required /> Male
+      <input id="Gender" type="radio" value="female" required /> Female
+    </div>
+
+    <div class="Height">
+      <label for="Height">Height:</label>
+      <input id="Height" type="number" required placeholder="165" /><p1>cm</p1>
+    </div>
+
+    <div class="Weight">
+      <label for="Weight">Weight:</label> 
+      <input id="Weight" type="number" required placeholder="60" /><p1>kg</p1>
+    </div>
+
+    <div class="catOrDog">
+      <label for="catOrDog">Are you a cat person or a dog person?</label>
+      <input name="pet" type="checkbox" value="cat" required /> Cat
+      <input name="pet" type="checkbox" value="dog" required /> Dog
+    </div>
+
+    <div class="Criteria">
+      <label for="Criteria"> Please tell us more about your ideal type: </label>
+      <br>
+      <textarea id="Criteria" rows="4" cols="50"> Describe here...</textarea>
+    </div>
+
+    <div class="Submit">
+      <input type="Submit" value="Submit" />
+    </div>
+
+  </form>
+</body>
+</html>
