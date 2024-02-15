@@ -110,7 +110,7 @@
    border-radius: 10px;
 }
 .imgHeader {
-   background-image: url("/Week 1 Checkpoint 2/content/header-background.svg");
+   background-image: url("/content/header-background.svg");
    background-position: 100%;
    background-size: 100%;
    text-align: center;
@@ -133,14 +133,13 @@
    margin-top: 0%;
 }
 
-
 .aboutUs {
    text-align: center;
-   background-image: url("/Week 1 Checkpoint 2/content/About Us.svg");
+   background-image: url("/content/About Us.svg");
    padding-bottom: 10px;
 }
 .contactUs {
-   background-image: url("/Week 1 Checkpoint 2/content/Contact Us.svg");
+   background-image: url("/content/Contact Us.svg");
    width: 100%;
    text-align: center;
 }
