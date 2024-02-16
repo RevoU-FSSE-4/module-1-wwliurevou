@@ -1,33 +1,36 @@
-# Widya Winata Liu Profile
+# Lopelope Dating Agency
 
-Before that please see my module 1 checkpoint 1 site here : https://module1checkpoint1.netlify.app/
->This is my profile 
+Module 1 Check Point 2 website : https://module1checkpoint2.netlify.app/
+
 ------------------------
-## My Bio
+# About The Website #
 
-![Jett](https://github.com/RevoU-FSSE-4/module-1-wwliurevou/blob/main/Jett.jpg)
+The website is about Dating Agency called Lopelope.
+We provide services to connect male or female candidates with possible potential match. 
 
-Hi Everyone! My name is Widya and above is my dog: Jett!
-I am one of the FULL STACK ENGINEER students at RevoU.  Nice to meet everyone! 
+------------------------
 
--------------------------------
+## Features on the Site
+<details>
+           <summary>Sticky NavBar</summary>
+           <p></p>
+         </details>
+<details>
+           <summary>Responsive CSS</summary>
+           <p></p>
+         </details>
+<details>
+           <summary>Flex Boxes</summary>
+           <p></p>
+         </details>
+<details>
+           <summary>Form</summary>
+           <p></p>
+         </details>
 
-## My Links
--Linkedin: [Linkedin](https://linkedin.com/in/widyawinataliu)
 
--Github  : [github](https://github.com/wwliurevou)
 
--------------------------------
+         
 
-### My Favorite Food 
-1. Nasi Goreng Gila
-2. Mie Goreng Gila
---------------------------------
-
-## MY Favorite Websites
-
-| Name      | URL                       | Reason                 |
-| --------- | :-----------------------: | ---------------------- |
-|Instagram  | https://www.instagram.com | To watch people's life |
 
 
