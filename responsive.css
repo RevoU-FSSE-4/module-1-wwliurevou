@@ -46,11 +46,29 @@
    }
 
    .logo {
-      width: 30%;
-      height: 30%;
-      object-fit: cover;
-      padding-top: 50%;
+      width: 100px;
+      height: 100px;
+      margin-top: -40%;
+      margin-bottom: -55%;
+      margin-left: -100%;
+   }
 
-      /* position: absolute; */
+   .textCenter {
+      font-weight: 600;
+      color: pink;
+      text-shadow: 4px 4px 2px black;
+      font-family: "Twinkle Star";
+      font-size: 50%;
+      font-style: italic;
+      padding-left: 30%;
+   }
+
+   .imgHeader {
+      background-image: url("/Week 1 Checkpoint 2/content/header-background-mobile.png");
+      background-size: contain;
+      padding-bottom: 20%;
+      padding-left: 20%;
+      padding-top: 13%;
+      text-align: center;
    }
 }

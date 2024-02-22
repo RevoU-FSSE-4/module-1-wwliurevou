@@ -1,0 +1,151 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(font.ttf);
+}
+
+* {
+   margin-top: 0%;
+   font-family: "calibri";
+   font-weight: lighter;
+}
+
+.navBar {
+   display: flex;
+   justify-content: space-between;
+   /* margin-top: 1%; */
+   white-space: nowrap;
+   background-color: papayawhip;
+   top: 5px;
+   z-index: 9999;
+   position: sticky;
+}
+.logo {
+   width: 100px;
+   height: 100px;
+}
+
+.navigation-left {
+   display: flex;
+   /* position: absolute; */
+}
+
+.navigation-right {
+   display: flex;
+   margin-right: 5%;
+   /* position: absolute; */
+}
+.logo {
+   width: 100px;
+   height: 100px;
+   margin-top: -90%;
+   margin-bottom: -55%;
+   /* position: absolute; */
+}
+
+.navigation {
+   padding-right: 10%;
+   padding: 10px 0 -7px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+   position: fixed;
+   width: 100%;
+}
+.navigation a {
+   color: black;
+   text-decoration: none;
+   margin: 0px 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   html {
+      scroll-behavior: smooth;
+   }
+}
+
+/* .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 10px;
+   width: 50%;
+   height: 50%;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   flex-wrap: wrap;
+} */
+/* .box {
+   border: 3px solid #7ed592;
+   width: 100px;
+   padding: 10px;
+   height: 100px;
+   border-radius: 10px; }*/
+.img-card {
+   object-fit: cover;
+   aspect-ratio: 200/200;
+   width: 100%;
+   height: 100%;
+}
+.candidate {
+   width: 100%;
+   margin: 0;
+   text-align: center;
+}
+.container {
+   margin-top: 2em;
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+   flex-wrap: nowrap;
+   align-items: center;
+   padding-bottom: 3%;
+}
+
+.box {
+   border: 1px solid black;
+   width: 80%;
+   padding: 1.5em;
+   height: 80%;
+   border-radius: 10px;
+}
+.imgHeader {
+   background-image: url("/content/header-background.svg");
+   background-position: 100%;
+   background-size: 100%;
+   text-align: center;
+   font-size: 500%;
+   padding-bottom: 7%;
+   padding-left: 8%;
+   padding-top: 7%;
+}
+
+.textCenter {
+   font-weight: 400;
+   color: aliceblue;
+   text-shadow: 2px 2px 2px black;
+}
+.textCenter:hover {
+   color: pink;
+   text-decoration: solid;
+}
+.title1 {
+   margin-top: 0%;
+}
+
+.aboutUs {
+   text-align: center;
+   background-image: url("/content/About Us.svg");
+   padding-bottom: 10px;
+}
+.contactUs {
+   background-image: url("/content/Contact Us.svg");
+   width: 100%;
+   text-align: center;
+}
+
+label {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}

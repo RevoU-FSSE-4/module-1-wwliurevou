@@ -1,69 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="index.css" />
+      <link rel="stylesheet" href="responsive.css" />
+      <script type="text/javascript" src="index.js"></script>
+   </head>
+   <!--navigation-->
+   <body>
+      <div class="navBar">
+         <div class="navigation-left">
+            <div class="container">
+               <img class="logo" src="/content/logo.png" />
+            </div>
+            <div class="navigation">
+               <a href="#Products">Products</a>
+            </div>
+            <div class="navigation">
+               <a href="#Learn">Learn</a>
+            </div>
+            <div class="navigation">
+               <a href="#Safety">Safety</a>
+            </div>
+         </div>
+         <div class="navigation-right">
+            <div class="navigation">
+               <a href="#Language">Language</a>
+            </div>
+            <div class="navigation">
+               <a href="#SignUp">Sign Up</a>
+            </div>
+            <div class="navigation">
+               <a href="#SignIn">Sign In</a>
+            </div>
+         </div>
+      </div>
+      <div class="imgHeader">
+         <!-- <img class="headerbg" src="header-background.svg" /> -->
 
-<body>
-  <div class="Header">
-    <h1>Welcome to my Week 0 Checkpoint#1</h1>
-    <img src="https://st.depositphotos.com/1032577/4812/i/380/depositphotos_48129893-stock-photo-frame-with-daisies-and-lettering.jpg" alt="welcomepic">
-    <h2>This is my form to register for Blind Dating Application</h2>
-    <h3>Please kindly fill the form below:</h3>
-  </div>
+         <div class="textCenter">Blind Dates for you</div>
+      </div>
 
-  <form>
-    <div class="Name">
-      <label for="firstName">First Name:</label>
-      <input id="firstName" type="text" required placeholder="Jane" />
-      <label for="lastName">Last Name:</label>
-      <input id="lastName" type="text" required />
-    </div>
+      <!--Candidate-->
+      <div class="candidate">
+         <h1>Top Candidate</h1>
+         <div class="container">
+            <div class="box">
+               <h1>Sheila</h1>
+               <img class="img-card" src="/content/2.svg" />
+            </div>
+            <div class="box">
+               <img class="img-card" src="/content/3.svg" />
+               <h1>Laras</h1>
+            </div>
+            <div class="box">
+               <h1>Ken</h1>
+               <img class="img-card" src="/content/4.svg" />
+            </div>
+            <div class="box">
+               <img class="img-card" src="/content/5.svg" />
+               <h1>George</h1>
+            </div>
+         </div>
+      </div>
+      <!--about us-->
+      <div class="aboutUs">
+         <h1>About Us</h1>
+         <h2>
+            When it comes to dating apps, you’ve got options: Badoo, Bumble,
+            Hinge, Match, POF, OKCupid, and many more. It doesn’t matter if you
+            want to find love, a date, or just have a casual chat, you still
+            want to find an app that’s the right match for you. And it’s not
+            always black and white — when you want to meet new people, your
+            friends at Tinder can help you out with features designed to make
+            the impossible possible. Dating online just got easier.
+            <br />
+            <br />
+            We won’t brag about being the best free site — we’ll let you decide
+            for yourself by giving you Tinder at a glance.
+         </h2>
+      </div>
+      <!--Register-->
+      <div class="contactUs">
+         <div class="Header">
+            <h1>Contact Us</h1>
+            <h2>
+               Please find below the form to register for Blind Dating
+               Application
+            </h2>
+            <h3>Please kindly fill the form below:</h3>
+         </div>
 
-    <div class="Email">
-      <label for="Email">Email:</label>
-      <input id="Email" type="email" required placeholder="Doe" />
-    </div>
+         <form>
+            <div class="Name">
+               <label for="firstName">First Name:</label>
+               <input id="firstName" type="text" required placeholder="Jane" />
+               <br />
+               <label for="lastName">Last Name:</label>
+               <input id="lastName" type="text" required placeholder="Doe" />
+            </div>
 
-    <div class="dateofBirth">
-      <label for="dateOfBirth">Date of Birth:</label>
-      <input id="dateofBirth" type="date" required  />
-    </div>
+            <div class="Email">
+               <label for="Email">Email:</label>
+               <input
+                  id="Email"
+                  type="email"
+                  required
+                  placeholder="jane.doe@yahoo.com"
+               />
+            </div>
 
-    <div class="Gender">
-      <label for="Gender">Gender:</label>
-      <input id="Gender" type="radio" value="male" required /> Male
-      <input id="Gender" type="radio" value="female" required /> Female
-    </div>
+            <div class="dateofBirth">
+               <label for="dateOfBirth">Date of Birth:</label>
+               <input id="dateofBirth" type="date" required />
+            </div>
 
-    <div class="Height">
-      <label for="Height">Height:</label>
-      <input id="Height" type="number" required placeholder="165" /><p1>cm</p1>
-    </div>
+            <div class="Gender">
+               <label for="Gender">Gender:</label>
 
-    <div class="Weight">
-      <label for="Weight">Weight:</label> 
-      <input id="Weight" type="number" required placeholder="60" /><p1>kg</p1>
-    </div>
+               <input type="radio" name="gender" value="male" /> Male
+               <input type="radio" name="gender" value="female" /> Female
+            </div>
 
-    <div class="catOrDog">
-      <label for="catOrDog">Are you a cat person or a dog person?</label>
-      <input name="pet" type="checkbox" value="cat" required /> Cat
-      <input name="pet" type="checkbox" value="dog" required /> Dog
-    </div>
+            <div class="Height">
+               <label for="Height">Height:</label>
+               <input id="Height" type="number" required placeholder="165" /><p1
+                  >cm</p1
+               >
+            </div>
 
-    <div class="Criteria">
-      <label for="Criteria"> Please tell us more about your ideal type: </label>
-      <br>
-      <textarea id="Criteria" rows="4" cols="50"> Describe here...</textarea>
-    </div>
+            <div class="Weight">
+               <label for="Weight">Weight:</label>
+               <input id="Weight" type="number" required placeholder="60" /><p1
+                  >kg</p1
+               >
+            </div>
 
-    <div class="Submit">
-      <input type="Submit" value="Submit" />
-    </div>
+            <div class="catOrDog">
+               <label for="catOrDog"
+                  >Are you a cat person or a dog person?</label
+               >
+               <input name="pet" type="checkbox" value="cat" required />
+               Cat
+               <input name="pet" type="checkbox" value="dog" required />
+               Dog
+            </div>
 
-  </form>
-</body>
+            <div class="Criteria">
+               <label for="Criteria">
+                  Please tell us more about your ideal type:
+               </label>
+               <br />
+               <textarea id="Criteria" rows="4" cols="50">
+ Describe here...</textarea
+               >
+            </div>
+
+            <div class="Submit">
+               <input type="Submit" value="Submit" />
+            </div>
+         </form>
+      </div>
+   </body>
 </html>
