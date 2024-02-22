@@ -141,7 +141,7 @@
    color: indianred;
 }
 .imgHeader {
-   background-image: url("/Week 1 Checkpoint 2/content/header-background2.png");
+   background-image: url("content/header-background2.png");
    background-position: 100%;
    background-size: cover;
    text-align: center;
@@ -167,12 +167,12 @@
 
 .aboutUs {
    text-align: center;
-   background-image: url("/Week 1 Checkpoint 2/content/About Us.svg");
+   background-image: url("content/About Us.svg");
    padding-bottom: 10px;
    word-spacing: 5px;
 }
 .contactUs {
-   background-image: url("/Week 1 Checkpoint 2/content/Contact Us.svg");
+   background-image: url("content/Contact Us.svg");
    width: 100%;
    text-align: center;
    padding-bottom: 2%;
